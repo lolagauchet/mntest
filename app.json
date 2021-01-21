@@ -1,0 +1,12 @@
+{
+  "name": "mntest",
+  "displayName": "mntest",
+  "expo": {
+    "name": "mntest",
+    "slug": "mntest",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
