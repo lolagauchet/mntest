@@ -9,11 +9,13 @@ git clone https://github.com/lolagauchet/mntest.git
 À la racine du projet, lancer les commandes :
 ```
 npm i -g expo-cli
+npm install
 expo start
 ```
+Puis scanner le QRCode depuis l'application mobile Expo ou lancer le projet sur un simulateur
 
 ## Sources
-- Récupération des data depuis le site de [NewsApi](https://newsapi.org/), et plus particulièrement des actualités liées à TechCrunch via cette [url](https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=82965f348be144828e8a35bd69e804a8):
+- Récupération des data depuis le site de [NewsApi](https://newsapi.org/), et plus particulièrement des actualités liées à TechCrunch via cette [url](https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=82965f348be144828e8a35bd69e804a8)
 
 ## Librairies utilisées
 - [React native router flux](https://github.com/aksonov/react-native-router-flux) : Permet de mettre en place la navigation
@@ -23,7 +25,7 @@ expo start
 
 ## TODO
 - Ajouter une pagination pour avoir seulement un certain nombre d'actualités chargées
-- Ajouter une barre de recherche pour filter les actualités par mots-clé
+- Ajouter une barre de recherche pour filtrer les actualités par mots-clé
 
 
 

@@ -25,7 +25,7 @@ export default class NewsDetails extends Component {
                     style={styles.image}
                 />
 
-                <Text style={styles.content}>{this.news.content}</Text>
+                <Text style={styles.content}>{this.news.description}</Text>
 
                 <Button
                     title="Lire article"
